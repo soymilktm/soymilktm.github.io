@@ -1,0 +1,86 @@
+body{
+    background-image:url("/assets/img/bg.gif");
+    background-size: 250px;
+
+}
+.Twitch-button{
+    background-color: rgb(121, 34, 139);
+    margin-left: 30px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    color: antiquewhite;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+   
+
+}
+.Twitch-button:hover{
+    opacity: 0.8;
+    border: 1ch;
+
+}
+.Twitch-button:active{
+    opacity: 0.5;
+   
+}
+
+.bigframe{
+    width: 400px;
+    height: 400px;
+}
+
+.divide1{
+    height: auto;
+    border: 11ch;
+    background-color: aquamarine;
+    transition: all 0.3s;
+}
+
+.divide1:hover{
+    background-color: rgba(56, 56, 93, 0.376);
+    opacity: 0.2;
+}
+
+.monitor{
+    background-image:url("/assets/img/monitor2.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 255, );
+    margin: auto;
+    padding: 10px;
+    height: 900px;
+    width: 1000px;
+    
+}
+.links{
+    background-color: rgba(37, 72, 102,0);
+    margin-top: 6%;
+    margin-left: 20%;
+    height: 30%;
+    width: 60%;
+}
+.waterfall{
+
+    width: 100%;
+    padding: 10px;
+    background-repeat: repeat-x;
+    background-image: url("/assets/img/blue-waterfall.gif");
+}
+
+.title{
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0);
+    width: 40%;
+}
+.bluesky-button{
+    background-color: rgb(68, 123, 224);
+    margin-right: 30px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
